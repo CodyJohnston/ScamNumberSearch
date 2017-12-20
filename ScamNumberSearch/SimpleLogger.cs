@@ -1,9 +1,9 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-
-namespace ScamNumberSearch
+﻿namespace ScamNumberSearch
 {
+    using System;
+    using System.IO;
+    using System.Reflection;
+
     public class SimpleLogger
     {
         private readonly string logFileName = $"ScamNumbers_{DateTime.Now.Month}-{DateTime.Now.Day}-{DateTime.Now.Month}_{DateTime.Now.Hour}-{DateTime.Now.Minute}-{DateTime.Now.Second}.log";
